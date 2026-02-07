@@ -1,4 +1,14 @@
-Codex.dmg
+# Runtime artifacts
+.runtime/
 server.log
 server.pid
 
+# Download payloads
+Codex.dmg
+downloads/*
+!downloads/.gitkeep
+
+# Environment
+node_modules/
+.DS_Store
+Thumbs.db

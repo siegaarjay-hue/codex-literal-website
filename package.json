@@ -1,0 +1,19 @@
+{
+  "name": "codex-literal-website",
+  "version": "1.0.0",
+  "description": "Professional cross-platform download portal for Codex artifacts.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "serve": "node scripts/codex-web.mjs serve",
+    "start": "node scripts/codex-web.mjs start",
+    "stop": "node scripts/codex-web.mjs stop",
+    "status": "node scripts/codex-web.mjs status",
+    "selftest": "node scripts/codex-web.mjs selftest",
+    "test": "node --test",
+    "check": "npm run test && npm run selftest"
+  }
+}

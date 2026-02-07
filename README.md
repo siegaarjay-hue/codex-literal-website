@@ -1,37 +1,86 @@
-# www-codex
+# Codex Literal Website
 
-Simple static download page served from Termux.
+[![CI](https://github.com/siegaarjay-hue/codex-literal-website/actions/workflows/ci.yml/badge.svg)](https://github.com/siegaarjay-hue/codex-literal-website/actions/workflows/ci.yml)
 
-## Files
+A professional, cross-platform artifact download portal built for reliable file delivery.
 
-- `index.html` - download page
-- `start.sh` - starts a background server
-- `stop.sh` - stops the background server
-- `serve.sh` - runs a foreground server
-- `selftest.sh` - local endpoint and file integrity checks
+## Highlights
 
-## Usage
+- Cross-platform runtime (Linux, macOS, Windows)
+- Background or foreground server modes
+- Download manifest API with SHA256 checksums
+- HTTP range support for resumable downloads
+- Automated test suite and CI matrix validation
 
-Start server:
+## Quick Start
 
-```bash
-bash start.sh
-```
-
-Stop server:
+1. Install Node.js 20+.
+2. Place release files in `downloads/`.
+3. Run:
 
 ```bash
-bash stop.sh
+npm install
+npm run start
+npm run status
 ```
 
-Run self-test:
+Server defaults to `http://127.0.0.1:8000/`.
+
+### Foreground mode
 
 ```bash
-bash selftest.sh
+npm run serve
 ```
 
-## Notes
+### Stop background mode
 
-- Put `Codex.dmg` in this directory before sharing downloads.
-- `Codex.dmg` is ignored by git on purpose.
+```bash
+npm run stop
+```
 
+## Validation
+
+Run unit tests:
+
+```bash
+npm test
+```
+
+Run end-to-end self-test:
+
+```bash
+npm run selftest
+```
+
+Run both:
+
+```bash
+npm run check
+```
+
+## Legacy Compatibility
+
+The server still supports a top-level `Codex.dmg` file for backward compatibility, but new files should live in `downloads/`.
+
+## Project Layout
+
+- `index.html` - landing page
+- `assets/` - front-end styles and scripts
+- `scripts/server.mjs` - HTTP server implementation
+- `scripts/codex-web.mjs` - operational CLI (`serve/start/stop/status/selftest`)
+- `tests/` - automated test suite
+- `.github/workflows/ci.yml` - multi-OS CI
+
+## Platform Notes
+
+- Windows: use PowerShell, CMD, or Git Bash with `npm run ...` commands.
+- macOS/Linux: any shell is fine.
+- CI validates all core flows on `ubuntu-latest`, `macos-latest`, and `windows-latest`.
+
+## Security
+
+See `SECURITY.md` for reporting guidance.
+
+## License
+
+MIT - see `LICENSE`.
