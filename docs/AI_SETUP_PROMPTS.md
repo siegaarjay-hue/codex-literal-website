@@ -2,73 +2,113 @@
 
 Use one prompt below with your preferred AI assistant.
 
-## Universal Prompt (Zero to Running)
+## Universal Autonomous Prompt (AI Does Everything)
 
 ```text
+You are an autonomous setup agent with terminal access.
+Do the full setup yourself end-to-end.
+Do NOT ask me to run commands manually unless permissions block you.
+
 I am a beginner and starting from zero.
 Repository link: https://github.com/siegaarjay-hue/codex-literal-website
 My operating system is: <Windows / macOS / Linux / Android with Termux>.
 Assume I have NOT cloned the repo yet.
 
-Give exact commands only, step by step, with expected output checks.
-Do everything end-to-end:
+Requirements:
+- Execute commands directly.
+- If something fails, troubleshoot and continue.
+- Finish only when app is running and verified.
+
+Flow:
 1) install or verify Git and Node.js 20+
 2) clone this exact repository link
 3) cd into the project
 4) npm install
 5) npm run start
-6) open correct local URL
-7) npm run stop
-8) troubleshoot common errors
-
-Use this format for each step:
-- Step
-- Command
-- Expected output
+6) verify GET /healthz succeeds
+7) run npm run selftest
+8) report final URL and status
+9) show stop command: npm run stop
 ```
 
-## Windows Prompt
+## Windows Autonomous Prompt
 
 ```text
-I am on Windows 11. I am a beginner and starting from zero.
-Repository link: https://github.com/siegaarjay-hue/codex-literal-website
-Use PowerShell commands only.
-Assume I have NOT cloned the repo yet.
-Give exact commands from install to running app.
-Include clone command, npm install, npm run start, local URL, npm run stop,
-and fixes for PATH or execution policy issues.
-```
+You are an autonomous setup agent with terminal access on Windows 11.
+Execute all commands yourself in PowerShell.
+Do not ask me to run commands manually unless permissions block you.
 
-## macOS Prompt
-
-```text
-I am on macOS. I am a beginner and starting from zero.
-Repository link: https://github.com/siegaarjay-hue/codex-literal-website
-Use zsh/bash commands only.
-Assume I have NOT cloned the repo yet.
-Include Homebrew install commands if Git or Node.js is missing.
-Give exact steps to clone, install, start, open local URL, and stop.
-```
-
-## Linux Prompt
-
-```text
-I am on Linux. I am a beginner and starting from zero.
-Repository link: https://github.com/siegaarjay-hue/codex-literal-website
-Use shell commands only.
-Assume I have NOT cloned the repo yet.
-Include install options for apt and dnf if Git or Node.js is missing.
-Give exact steps to clone, install, start, open local URL, and stop.
-```
-
-## Android + Termux Prompt
-
-```text
-I am on Android using Termux. I am a beginner and starting from zero.
+I am a beginner and starting from zero.
 Repository link: https://github.com/siegaarjay-hue/codex-literal-website
 Assume I have NOT cloned the repo yet.
 
-Give exact Termux commands only for:
+Do end-to-end setup and verification:
+- install/check git + node 20+
+- clone repo
+- npm install
+- npm run start
+- verify /healthz
+- npm run selftest
+- report URL
+- show npm run stop
+```
+
+## macOS Autonomous Prompt
+
+```text
+You are an autonomous setup agent with terminal access on macOS.
+Execute all commands yourself in zsh/bash.
+Do not ask me to run commands manually unless permissions block you.
+
+I am a beginner and starting from zero.
+Repository link: https://github.com/siegaarjay-hue/codex-literal-website
+Assume I have NOT cloned the repo yet.
+
+Do end-to-end setup and verification:
+- check/install git + node 20+ (Homebrew if needed)
+- clone repo
+- npm install
+- npm run start
+- verify /healthz
+- npm run selftest
+- report URL
+- show npm run stop
+```
+
+## Linux Autonomous Prompt
+
+```text
+You are an autonomous setup agent with terminal access on Linux.
+Execute all commands yourself in shell.
+Do not ask me to run commands manually unless permissions block you.
+
+I am a beginner and starting from zero.
+Repository link: https://github.com/siegaarjay-hue/codex-literal-website
+Assume I have NOT cloned the repo yet.
+
+Do end-to-end setup and verification:
+- check/install git + node 20+ (apt or dnf)
+- clone repo
+- npm install
+- npm run start
+- verify /healthz
+- npm run selftest
+- report URL
+- show npm run stop
+```
+
+## Android + Termux Autonomous Prompt
+
+```text
+You are an autonomous setup agent with Termux terminal access on Android.
+Execute all commands yourself in Termux.
+Do not ask me to run commands manually unless permissions block you.
+
+I am a beginner and starting from zero.
+Repository link: https://github.com/siegaarjay-hue/codex-literal-website
+Assume I have NOT cloned the repo yet.
+
+Do end-to-end setup and verification:
 1) pkg update/upgrade
 2) install git and nodejs-lts
 3) termux-setup-storage
@@ -76,11 +116,8 @@ Give exact Termux commands only for:
 5) cd into project
 6) npm install
 7) npm run start
-8) open local URL on phone browser
-9) npm run stop
-
-Add troubleshooting for:
-- npm not found
-- permissions/storage issues
-- port already in use
+8) verify /healthz
+9) npm run selftest
+10) report local URL for phone browser
+11) show npm run stop
 ```
