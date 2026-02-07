@@ -6,7 +6,7 @@
 
 [![CI](https://github.com/siegaarjay-hue/codex-literal-website/actions/workflows/ci.yml/badge.svg)](https://github.com/siegaarjay-hue/codex-literal-website/actions/workflows/ci.yml)
 
-Simple file download server with checksum metadata.
+Cross-platform download server for sharing release files with SHA256 checksums, resumable downloads, and health/self-test verification.
 
 ## Quick Start (Desktop)
 
