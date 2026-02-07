@@ -1,0 +1,35 @@
+<svg width="1500" height="520" viewBox="0 0 1500 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Repository showcase">
+  <defs>
+    <linearGradient id="bg" x1="30" y1="12" x2="1450" y2="490" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3F6EF"/>
+      <stop offset="1" stop-color="#E0ECF6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1500" height="520" rx="24" fill="url(#bg)"/>
+
+  <rect x="86" y="88" width="420" height="344" rx="20" fill="#FFFFFF" stroke="#D2DFD8"/>
+  <rect x="540" y="88" width="420" height="344" rx="20" fill="#FFFFFF" stroke="#D2DFD8"/>
+  <rect x="994" y="88" width="420" height="344" rx="20" fill="#FFFFFF" stroke="#D2DFD8"/>
+
+  <text x="132" y="156" fill="#15344D" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="36" font-weight="700">Professional Docs</text>
+  <text x="132" y="204" fill="#355A73" font-family="Segoe UI, Arial, sans-serif" font-size="22">Beginner flow, AI prompts,</text>
+  <text x="132" y="236" fill="#355A73" font-family="Segoe UI, Arial, sans-serif" font-size="22">desktop + phone setup guides.</text>
+
+  <text x="586" y="156" fill="#15344D" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="36" font-weight="700">Cross Platform CI</text>
+  <text x="586" y="204" fill="#355A73" font-family="Segoe UI, Arial, sans-serif" font-size="22">Validated on Linux, macOS,</text>
+  <text x="586" y="236" fill="#355A73" font-family="Segoe UI, Arial, sans-serif" font-size="22">and Windows, Node 20 and 22.</text>
+
+  <text x="1040" y="156" fill="#15344D" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="36" font-weight="700">Quality Delivery</text>
+  <text x="1040" y="204" fill="#355A73" font-family="Segoe UI, Arial, sans-serif" font-size="22">SHA256 manifest, range support,</text>
+  <text x="1040" y="236" fill="#355A73" font-family="Segoe UI, Arial, sans-serif" font-size="22">background process controls.</text>
+
+  <rect x="132" y="292" width="330" height="54" rx="27" fill="#0A7A73"/>
+  <text x="297" y="326" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Beginner Friendly</text>
+
+  <rect x="586" y="292" width="330" height="54" rx="27" fill="#0E4D64"/>
+  <text x="751" y="326" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Verified by CI</text>
+
+  <rect x="1040" y="292" width="330" height="54" rx="27" fill="#0D6A85"/>
+  <text x="1205" y="326" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Production Ready</text>
+</svg>
