@@ -5,8 +5,25 @@
 # Codex Literal Website
 
 [![CI](https://github.com/siegaarjay-hue/codex-literal-website/actions/workflows/ci.yml/badge.svg)](https://github.com/siegaarjay-hue/codex-literal-website/actions/workflows/ci.yml)
+![Node 20+](https://img.shields.io/badge/node-%3E%3D20-0b7a73)
+![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macOS%20%7C%20windows-16324a)
+![License](https://img.shields.io/badge/license-MIT-0d5f7c)
 
 Cross-platform download server for sharing release files with SHA256 checksums, resumable downloads, and health/self-test verification.
+
+## Preview
+
+<p align="center">
+  <img src="docs/preview-ui.svg" alt="Desktop preview" width="100%" />
+</p>
+
+<p align="center">
+  <img src="docs/termux-phone.svg" alt="Android Termux preview" width="100%" />
+</p>
+
+<p align="center">
+  <img src="docs/repo-showcase.svg" alt="Project showcase" width="100%" />
+</p>
 
 ## Quick Start (Desktop)
 
