@@ -9,7 +9,7 @@
 ![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macOS%20%7C%20windows-16324a)
 ![License](https://img.shields.io/badge/license-MIT-0d5f7c)
 
-Cross-platform download server for sharing release files with SHA256 checksums, resumable downloads, and health/self-test verification.
+Web version of Codex for browser-based workflow, with local run controls and built-in health/self-test checks.
 
 ## Preview
 

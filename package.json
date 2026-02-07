@@ -1,7 +1,7 @@
 {
   "name": "codex-literal-website",
   "version": "1.0.0",
-  "description": "Professional cross-platform download portal for Codex artifacts.",
+  "description": "Web version of Codex with browser UI and local runtime controls.",
   "private": true,
   "type": "module",
   "engines": {
