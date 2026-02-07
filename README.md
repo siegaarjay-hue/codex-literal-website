@@ -4,7 +4,7 @@
 
 # Codex Literal Website
 
-[![CI](https://github.com/siegaarjay-hue/codex-literal-website/actions/workflows/ci.yml/badge.svg)](https://github.com/siegaarjay-hue/codex-literal-website/actions/workflows/ci.yml)
+![CI](https://img.shields.io/badge/ci-github_actions-1f6feb)
 ![Node 20+](https://img.shields.io/badge/node-%3E%3D20-0b7a73)
 ![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macOS%20%7C%20windows-16324a)
 ![License](https://img.shields.io/badge/license-MIT-0d5f7c)
@@ -27,8 +27,14 @@ Web version of Codex for browser-based workflow, with local run controls and bui
 
 ## Quick Start (Desktop)
 
+Set your repo URL:
+
 ```bash
-git clone https://github.com/siegaarjay-hue/codex-literal-website.git
+REPO_URL="https://github.com/<owner>/codex-literal-website"
+```
+
+```bash
+git clone "$REPO_URL"
 cd codex-literal-website
 npm install
 npm run start
@@ -48,7 +54,8 @@ npm run stop
 pkg update -y && pkg upgrade -y
 pkg install -y git nodejs-lts
 termux-setup-storage
-git clone https://github.com/siegaarjay-hue/codex-literal-website.git
+REPO_URL="https://github.com/<owner>/codex-literal-website"
+git clone "$REPO_URL"
 cd codex-literal-website
 npm install
 npm run start
@@ -70,7 +77,7 @@ Use this when you want AI to do setup directly, not just explain.
 You are an autonomous setup agent with terminal access.
 Do setup yourself end-to-end. Do NOT ask me to run commands manually unless permissions block you.
 
-Repository link: https://github.com/siegaarjay-hue/codex-literal-website
+Repository link: <REPO_URL>
 OS: <Windows / macOS / Linux / Android with Termux>
 Assume repo is not cloned yet.
 

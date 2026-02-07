@@ -1,6 +1,7 @@
 # AI Setup Prompts
 
 Use one prompt below with your preferred AI assistant.
+Replace `<REPO_URL>` with your actual repository URL before sending.
 
 ## Universal Autonomous Prompt (AI Does Everything)
 
@@ -10,7 +11,7 @@ Do the full setup yourself end-to-end.
 Do NOT ask me to run commands manually unless permissions block you.
 
 I am a beginner and starting from zero.
-Repository link: https://github.com/siegaarjay-hue/codex-literal-website
+Repository link: <REPO_URL>
 My operating system is: <Windows / macOS / Linux / Android with Termux>.
 Assume I have NOT cloned the repo yet.
 
@@ -39,7 +40,7 @@ Execute all commands yourself in PowerShell.
 Do not ask me to run commands manually unless permissions block you.
 
 I am a beginner and starting from zero.
-Repository link: https://github.com/siegaarjay-hue/codex-literal-website
+Repository link: <REPO_URL>
 Assume I have NOT cloned the repo yet.
 
 Do end-to-end setup and verification:
@@ -61,7 +62,7 @@ Execute all commands yourself in zsh/bash.
 Do not ask me to run commands manually unless permissions block you.
 
 I am a beginner and starting from zero.
-Repository link: https://github.com/siegaarjay-hue/codex-literal-website
+Repository link: <REPO_URL>
 Assume I have NOT cloned the repo yet.
 
 Do end-to-end setup and verification:
@@ -83,7 +84,7 @@ Execute all commands yourself in shell.
 Do not ask me to run commands manually unless permissions block you.
 
 I am a beginner and starting from zero.
-Repository link: https://github.com/siegaarjay-hue/codex-literal-website
+Repository link: <REPO_URL>
 Assume I have NOT cloned the repo yet.
 
 Do end-to-end setup and verification:
@@ -105,7 +106,7 @@ Execute all commands yourself in Termux.
 Do not ask me to run commands manually unless permissions block you.
 
 I am a beginner and starting from zero.
-Repository link: https://github.com/siegaarjay-hue/codex-literal-website
+Repository link: <REPO_URL>
 Assume I have NOT cloned the repo yet.
 
 Do end-to-end setup and verification:
