@@ -1,0 +1,54 @@
+<svg width="1500" height="900" viewBox="0 0 1500 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Codex Literal Website preview mock">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1500" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF5EF"/>
+      <stop offset="1" stop-color="#D6ECE6"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="118" y1="132" x2="1386" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14314A"/>
+      <stop offset="1" stop-color="#0A7A73"/>
+    </linearGradient>
+    <filter id="shadow" x="72" y="72" width="1356" height="756" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#0A2036" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="1500" height="900" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="96" y="96" width="1308" height="708" rx="24" fill="#FDFEFE"/>
+  </g>
+
+  <rect x="132" y="132" width="1236" height="198" rx="18" fill="url(#hero)"/>
+  <text x="176" y="208" fill="#FFFFFF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="44" font-weight="700">Reliable Artifact Delivery</text>
+  <text x="176" y="252" fill="#C9FFF6" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="23" font-weight="500">Share release files with checksums and resumable downloads.</text>
+
+  <rect x="176" y="275" width="230" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.95"/>
+  <text x="291" y="299" text-anchor="middle" fill="#114560" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Server Healthy</text>
+
+  <rect x="176" y="368" width="582" height="366" rx="16" fill="#FFFFFF" stroke="#CAD9D3"/>
+  <text x="210" y="414" fill="#1A2C3D" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Downloads</text>
+
+  <rect x="210" y="446" width="514" height="104" rx="12" fill="#F6FAF9" stroke="#D7E6E0"/>
+  <text x="234" y="486" fill="#0E3350" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Codex.dmg</text>
+  <text x="234" y="516" fill="#38516B" font-family="Segoe UI, Arial, sans-serif" font-size="17">128 MB | SHA256 6f4f0a31f9d8...</text>
+  <rect x="571" y="465" width="130" height="54" rx="10" fill="#0B6F6A"/>
+  <text x="636" y="499" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Download</text>
+
+  <rect x="210" y="568" width="514" height="104" rx="12" fill="#F6FAF9" stroke="#D7E6E0"/>
+  <text x="234" y="608" fill="#0E3350" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">release-notes.zip</text>
+  <text x="234" y="638" fill="#38516B" font-family="Segoe UI, Arial, sans-serif" font-size="17">2.3 MB | SHA256 ac30441bf2aa...</text>
+  <rect x="571" y="587" width="130" height="54" rx="10" fill="#0B6F6A"/>
+  <text x="636" y="621" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Download</text>
+
+  <rect x="784" y="368" width="584" height="366" rx="16" fill="#FFFFFF" stroke="#CAD9D3"/>
+  <text x="818" y="414" fill="#1A2C3D" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Quick Start</text>
+
+  <rect x="818" y="445" width="516" height="258" rx="12" fill="#102036"/>
+  <text x="854" y="492" fill="#D6F7F0" font-family="JetBrains Mono, Consolas, monospace" font-size="26" font-weight="600">npm install</text>
+  <text x="854" y="534" fill="#D6F7F0" font-family="JetBrains Mono, Consolas, monospace" font-size="26" font-weight="600">npm run start</text>
+  <text x="854" y="576" fill="#D6F7F0" font-family="JetBrains Mono, Consolas, monospace" font-size="26" font-weight="600">npm run status</text>
+  <text x="854" y="618" fill="#D6F7F0" font-family="JetBrains Mono, Consolas, monospace" font-size="26" font-weight="600">npm run stop</text>
+
+  <text x="1264" y="858" text-anchor="end" fill="#375160" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600">README preview mock</text>
+</svg>

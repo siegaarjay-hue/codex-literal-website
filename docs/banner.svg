@@ -1,0 +1,38 @@
+<svg width="1600" height="420" viewBox="0 0 1600 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Codex Literal Website banner">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="0" x2="1480" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F304F"/>
+      <stop offset="1" stop-color="#0A7B73"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="250" y1="84" x2="1250" y2="352" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.04"/>
+    </linearGradient>
+    <filter id="blur" x="0" y="0" width="1600" height="420" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="50"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="420" rx="28" fill="url(#bg)"/>
+  <ellipse cx="1420" cy="44" rx="220" ry="96" fill="#C9FFF6" fill-opacity="0.18" filter="url(#blur)"/>
+  <ellipse cx="260" cy="386" rx="260" ry="114" fill="#A6E5FF" fill-opacity="0.12" filter="url(#blur)"/>
+
+  <rect x="96" y="72" width="1408" height="276" rx="22" fill="url(#glow)" stroke="rgba(255,255,255,0.26)"/>
+
+  <text x="150" y="172" fill="white" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="0.5">Codex Literal Website</text>
+  <text x="150" y="232" fill="#D9FFF8" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="29" font-weight="500">Professional, beginner-friendly artifact delivery</text>
+
+  <g transform="translate(150 268)">
+    <rect width="188" height="44" rx="22" fill="#FFFFFF" fill-opacity="0.95"/>
+    <text x="94" y="29" text-anchor="middle" fill="#0E4D64" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">Linux</text>
+  </g>
+  <g transform="translate(356 268)">
+    <rect width="188" height="44" rx="22" fill="#FFFFFF" fill-opacity="0.95"/>
+    <text x="94" y="29" text-anchor="middle" fill="#0E4D64" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">macOS</text>
+  </g>
+  <g transform="translate(562 268)">
+    <rect width="188" height="44" rx="22" fill="#FFFFFF" fill-opacity="0.95"/>
+    <text x="94" y="29" text-anchor="middle" fill="#0E4D64" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">Windows</text>
+  </g>
+
+  <text x="1260" y="311" text-anchor="end" fill="#D4FFF8" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">npm run start</text>
+</svg>
